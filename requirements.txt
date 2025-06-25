@@ -1,3 +1,5 @@
 requests
 pynput
 pywin32
+pyautogui
+pillow
